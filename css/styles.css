@@ -104,6 +104,7 @@ button { font-family: inherit; cursor: pointer; }
 
 .brand { display: inline-flex; align-items: center; }
 .brand-logo { display: block; height: 36px; width: auto; }
+.brand-icon { display: block; height: 44px; width: auto; }
 
 .nav-links { display: flex; align-items: center; gap: 32px; font-weight: 600; font-size: 0.95rem; }
 .nav-links a { color: var(--ink-600); transition: color 0.15s ease; position: relative; }
