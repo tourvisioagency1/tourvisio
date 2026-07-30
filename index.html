@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tourvisio | Tur Paketləri və Viza Dəstəyi</title>
+<meta name="description" content="Tourvisio ilə ən sərfəli tur paketlərini kəşf edin, viza prosesinizi peşəkar dəstəklə asanlaşdırın. Bakı, Caspian Plaza.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Icon sprite (Instagram, Facebook, WhatsApp and UI icons share this single definition so every instance stays visually identical) -->
+<svg style="display:none">
+  <symbol id="icon-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+  </symbol>
+  <symbol id="icon-facebook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+  </symbol>
+  <symbol id="icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+  </symbol>
+  <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+  </symbol>
+  <symbol id="icon-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+  </symbol>
+  <symbol id="icon-map-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+    <circle cx="12" cy="10" r="3"/>
+  </symbol>
+  <symbol id="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/>
+  </symbol>
+  <symbol id="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+  </symbol>
+  <symbol id="icon-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+  </symbol>
+  <symbol id="icon-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+  </symbol>
+  <symbol id="icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+  </symbol>
+  <symbol id="icon-shield-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/>
+  </symbol>
+  <symbol id="icon-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
+    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+  </symbol>
+  <symbol id="icon-star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+  </symbol>
+  <symbol id="icon-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+  </symbol>
+  <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+  </symbol>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-contact">
+        <a href="tel:+994558925389"><svg class="icon icon-sm"><use href="#icon-phone"/></svg>+994 55 892 53 89</a>
+        <a href="mailto:info@tourvisio.az"><svg class="icon icon-sm"><use href="#icon-mail"/></svg>info@tourvisio.az</a>
+      </div>
+      <ul class="social-icons" aria-label="Sosial şəbəkələr">
+        <li><a href="https://facebook.com/tourvisio" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg class="icon"><use href="#icon-facebook"/></svg></a></li>
+        <li><a href="https://instagram.com/tourvisio" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="icon"><use href="#icon-instagram"/></svg></a></li>
+        <li><a href="https://wa.me/994558925389" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg class="icon"><use href="#icon-whatsapp"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <nav class="navbar container">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a8 8 0 0 1 14.5-4.5"/><path d="M18.5 5.5v4h-4"/></svg>
+      </span>
+      tourvisio<sup>®</sup>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Ana səhifə</a></li>
+      <li><a href="#services">Xidmətlər</a></li>
+      <li><a href="#about">Haqqımızda</a></li>
+      <li><a href="#contact">Əlaqə</a></li>
+    </ul>
+
+    <a href="#contact" class="btn btn-primary btn-sm nav-cta">Bizimlə əlaqə</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Menyunu aç" aria-expanded="false" aria-controls="navLinks">
+      <svg class="icon"><use href="#icon-menu"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow">Etibarlı səyahət tərəfdaşınız</span>
+        <h1>Xəyalınızdakı səfərə <span>bir addım</span> qalıb</h1>
+        <p>Tourvisio ilə dünyanın ən populyar istiqamətlərinə sərfəli tur paketləri seçin, viza prosesinizi peşəkar komandamızla dərd etmədən tamamlayın.</p>
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-light">Turlara bax</a>
+          <a href="#contact" class="btn btn-outline-light">Bizimlə əlaqə</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-blob"></div>
+        <svg viewBox="0 0 200 200" class="hero-plane">
+          <path d="M20 110 L150 60 L120 90 L180 95 L120 105 L140 150 L110 120 Z" fill="#fff" opacity="0.95"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROMO BANNER ============ -->
+  <section class="promo-banner" aria-label="Tourvisio kampaniya banneri">
+    <div class="container">
+      <img
+        src="assets/images/tourvisio-promo.png"
+        alt="Tourvisio - Ən sərfəli tur-paketlər və viza dəstəyi"
+        loading="lazy"
+        width="1920"
+        height="1080"
+        class="promo-banner-img"
+      >
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow eyebrow-dark">Xidmətlərimiz</span>
+        <h2>Səyahətinizin hər addımında yanınızdayıq</h2>
+      </div>
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon"><svg class="icon"><use href="#icon-send"/></svg></div>
+          <h3>Tur Paketləri</h3>
+          <p>Dünyanın ən populyar istiqamətlərinə uyğun büdcəli və premium tur paketləri.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon"><svg class="icon"><use href="#icon-globe"/></svg></div>
+          <h3>Viza Dəstəyi</h3>
+          <p>Sənədlərin hazırlanmasından müsahibəyə qədər tam viza müşayiəti.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon"><svg class="icon"><use href="#icon-home"/></svg></div>
+          <h3>Otel Rezervasiyası</h3>
+          <p>Etibarlı tərəfdaşlarımız vasitəsilə ən yaxşı qiymətlərlə otel seçimi.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon"><svg class="icon"><use href="#icon-shield-check"/></svg></div>
+          <h3>Səyahət Sığortası</h3>
+          <p>Sığorta dəstəyi ilə hər addımda arxayın və qorunmuş şəkildə səyahət edin.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY US / STATS ============ -->
+  <section class="stats" id="about">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <svg class="icon"><use href="#icon-users"/></svg>
+        <strong>500+</strong>
+        <span>Məmnun Müştəri</span>
+      </div>
+      <div class="stat-item">
+        <svg class="icon"><use href="#icon-globe"/></svg>
+        <strong>50+</strong>
+        <span>İstiqamət</span>
+      </div>
+      <div class="stat-item">
+        <svg class="icon"><use href="#icon-clock"/></svg>
+        <strong>24/7</strong>
+        <span>Dəstək Xətti</span>
+      </div>
+      <div class="stat-item">
+        <svg class="icon"><use href="#icon-star"/></svg>
+        <strong>8+</strong>
+        <span>İl Təcrübə</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="eyebrow eyebrow-dark">Əlaqə</span>
+        <h2>Sualınız var? Bizə yazın</h2>
+        <p>Komandamız iş günləri ərzində sizinlə əlaqə saxlayacaq və ən uyğun tur təklifini hazırlayacaq.</p>
+        <ul class="contact-list">
+          <li><svg class="icon"><use href="#icon-map-pin"/></svg>44 Jafar Jabbarli street, Caspian Plaza, Bakı</li>
+          <li><svg class="icon"><use href="#icon-phone"/></svg><a href="tel:+994558925389">+994 55 892 53 89</a></li>
+          <li><svg class="icon"><use href="#icon-phone"/></svg><a href="tel:+994516718471">+994 51 671 84 71</a></li>
+          <li><svg class="icon"><use href="#icon-mail"/></svg><a href="mailto:info@tourvisio.az">info@tourvisio.az</a></li>
+        </ul>
+        <ul class="social-icons social-icons-dark">
+          <li><a href="https://facebook.com/tourvisio" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg class="icon"><use href="#icon-facebook"/></svg></a></li>
+          <li><a href="https://instagram.com/tourvisio" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="icon"><use href="#icon-instagram"/></svg></a></li>
+          <li><a href="https://wa.me/994558925389" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg class="icon"><use href="#icon-whatsapp"/></svg></a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label for="name">Ad Soyad</label>
+          <input type="text" id="name" name="name" placeholder="Adınız Soyadınız" required>
+        </div>
+        <div class="form-row">
+          <label for="email">E-poçt</label>
+          <input type="email" id="email" name="email" placeholder="siz@example.com" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Mesaj</label>
+          <textarea id="message" name="message" rows="4" placeholder="Hansı istiqamətlə maraqlanırsınız?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">
+          Göndər <svg class="icon"><use href="#icon-arrow-right"/></svg>
+        </button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#top" class="brand brand-footer">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a8 8 0 0 1 14.5-4.5"/><path d="M18.5 5.5v4h-4"/></svg>
+        </span>
+        tourvisio<sup>®</sup>
+      </a>
+      <p>Ən sərfəli tur paketləri və peşəkar viza dəstəyi ilə xəyalınızdakı səfəri reallığa çeviririk.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Naviqasiya</h4>
+      <ul>
+        <li><a href="#home">Ana səhifə</a></li>
+        <li><a href="#services">Xidmətlər</a></li>
+        <li><a href="#about">Haqqımızda</a></li>
+        <li><a href="#contact">Əlaqə</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Xidmətlər</h4>
+      <ul>
+        <li><a href="#services">Tur Paketləri</a></li>
+        <li><a href="#services">Viza Dəstəyi</a></li>
+        <li><a href="#services">Otel Rezervasiyası</a></li>
+        <li><a href="#services">Səyahət Sığortası</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col footer-contact">
+      <h4>Əlaqə</h4>
+      <ul class="contact-list">
+        <li><svg class="icon"><use href="#icon-map-pin"/></svg>44 Jafar Jabbarli street, Caspian Plaza, Bakı</li>
+        <li><svg class="icon"><use href="#icon-phone"/></svg><a href="tel:+994558925389">+994 55 892 53 89</a></li>
+        <li><svg class="icon"><use href="#icon-mail"/></svg><a href="mailto:info@tourvisio.az">info@tourvisio.az</a></li>
+      </ul>
+      <ul class="social-icons">
+        <li><a href="https://facebook.com/tourvisio" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg class="icon"><use href="#icon-facebook"/></svg></a></li>
+        <li><a href="https://instagram.com/tourvisio" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="icon"><use href="#icon-instagram"/></svg></a></li>
+        <li><a href="https://wa.me/994558925389" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg class="icon"><use href="#icon-whatsapp"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom container">
+    <p>&copy; <span id="year"></span> Tourvisio. Bütün hüquqlar qorunur.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
